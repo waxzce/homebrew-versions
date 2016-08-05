@@ -1,6 +1,6 @@
 require "formula"
 
-class Thrift < Formula
+class Thrift091 < Formula
   homepage "http://thrift.apache.org"
 
   stable do
