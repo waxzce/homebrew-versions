@@ -9,8 +9,6 @@ class Thrift091 < Formula
 
     # These patches are 0.9.1-specific and can go away once a newer version is released
     [
-      # Apply THRIFT-2201 fix from master to 0.9.1 branch (required for clang to compile with C++11 support)
-      %w{836d95f9f00be73c6936d407977796181d1a506c 4bc8c19c51f3d9f30799251a810dd1ca63c4bf1e},
       # Apply THRIFT-667
       %w{12c09f44cb291b1ecc4074cb3a55775b375fa8b2 3c449146e13727a9dbeb66e9826968b85a6d8869},
       # Apply THRIFT-1755
